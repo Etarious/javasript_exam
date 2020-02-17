@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Contact Form</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<section id="container">
+		<h2>Contact Form</h2>
+		<div class="form">
+			<form>
+				<div>
+					<label>Email Address</label><br>
+					<input type="email" name="Email Address" id="email_id" placeholder="Email">
+				</div>
+
+				<div>
+					<label>Feedback</label><br>
+					<textarea cols="30" rows="10" maxlength="250" minlength="50" id="feedback" placeholder="Tell us your feedback"></textarea>
+				</div>
+
+				<div>
+					<button id="submit" onclick="submit_form()">Submit</button>
+				</div>
+
+				<div>
+					<input type="reset" name="Reset" style="margin-top: 10px; text-align: center; background-color: #D886D2; font-family: century gothic; color: white; font-size: 20px; border: 1px solid white;">
+				</div>
+			</form>
+		</div>
+	</section>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
